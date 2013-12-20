@@ -1,5 +1,8 @@
 <?php
-//put sha1() encrypted password here - example 'aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d' is 'hello'
+// Administrador de Base de Datos de Cantones de Costa Rica
+// Creado por Francisco Guerrero
+
+//establecer clave para accesar a esta página de administración
 $password = '8190f494e04bb12d05f7f9680a166d910d2462f3';
 session_start();?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -37,7 +40,7 @@ exit();
 endif;
 ?>
 <?php
-// establece una conexión con la base de datos.  francis2_canton francis2_cantoneslibres u6yHAKoH&6eK
+// establece una conexión con la base de datos.
 include("conexion.php");
 ?>
 <title>Administrador de Cantones Libres</title>
